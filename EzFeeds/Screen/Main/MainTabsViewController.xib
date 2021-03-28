@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainTabsViewController" customModule="EzFeeds" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="Fjw-xg-9dh" id="s4m-jc-Ec6"/>
+                <outlet property="ezTabbar" destination="NOH-i4-2cc" id="odc-FH-phP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MiI-bW-l87" userLabel="Tabbar">
+                    <rect key="frame" x="0.0" y="810" width="414" height="86"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NOH-i4-2cc" customClass="EzFeedTabBar" customModule="EzFeeds" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="fc5-QU-XVt"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="NOH-i4-2cc" firstAttribute="leading" secondItem="MiI-bW-l87" secondAttribute="leading" id="948-ta-zUs"/>
+                        <constraint firstAttribute="trailing" secondItem="NOH-i4-2cc" secondAttribute="trailing" id="OoN-jC-S1X"/>
+                        <constraint firstItem="NOH-i4-2cc" firstAttribute="top" secondItem="MiI-bW-l87" secondAttribute="top" id="gBA-lN-rAz"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fjw-xg-9dh">
+                    <rect key="frame" x="0.0" y="44" width="414" height="766"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Fjw-xg-9dh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="34a-xU-IeQ"/>
+                <constraint firstItem="MiI-bW-l87" firstAttribute="top" secondItem="Fjw-xg-9dh" secondAttribute="bottom" id="Jd9-qx-MKw"/>
+                <constraint firstItem="MiI-bW-l87" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="SbN-gh-le1"/>
+                <constraint firstItem="MiI-bW-l87" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="VCT-X8-emZ"/>
+                <constraint firstAttribute="bottom" secondItem="MiI-bW-l87" secondAttribute="bottom" id="VXh-fU-eeV"/>
+                <constraint firstItem="Fjw-xg-9dh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hUC-c4-aDT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Fjw-xg-9dh" secondAttribute="trailing" id="oy1-F7-ajW"/>
+                <constraint firstItem="MiI-bW-l87" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="-52" id="v7X-UT-7OJ"/>
+            </constraints>
+            <point key="canvasLocation" x="-155" y="7"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EzFeedTabBar" customModule="EzFeeds" customModuleProvider="target">
+            <connections>
+                <outlet property="bookmarkViewItem" destination="Q7d-Vu-bvs" id="Jkj-0Z-tF0"/>
+                <outlet property="categoryViewItem" destination="R8z-sl-mnC" id="Qlz-cB-hZV"/>
+                <outlet property="homeViewItem" destination="Wrg-Hh-qKM" id="pdj-7b-E1K"/>
+                <outlet property="profileViewItem" destination="t3h-ly-6Pz" id="Dh1-jq-NPz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="411" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-Cj-FJB">
+                    <rect key="frame" x="0.0" y="0.0" width="411" height="58"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wrg-Hh-qKM" customClass="EzTabBarItem" customModule="EzFeeds" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="102.66666666666667" height="58"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7d-Vu-bvs" customClass="EzTabBarItem" customModule="EzFeeds" customModuleProvider="target">
+                            <rect key="frame" x="102.66666666666669" y="0.0" width="103" height="58"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8z-sl-mnC" customClass="EzTabBarItem" customModule="EzFeeds" customModuleProvider="target">
+                            <rect key="frame" x="205.66666666666666" y="0.0" width="102.66666666666666" height="58"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3h-ly-6Pz" customClass="EzTabBarItem" customModule="EzFeeds" customModuleProvider="target">
+                            <rect key="frame" x="308.33333333333331" y="0.0" width="102.66666666666669" height="58"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NYq-Cj-FJB" secondAttribute="bottom" id="06h-Wz-1Uo"/>
+                <constraint firstItem="NYq-Cj-FJB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="VGm-Mp-e2C"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NYq-Cj-FJB" secondAttribute="trailing" id="cv4-a8-GjK"/>
+                <constraint firstItem="NYq-Cj-FJB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hmy-x7-p7h"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="75" y="-620"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
