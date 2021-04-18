@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import Alamofire
+import ObjectMapper
 
 struct APIRequest {
     

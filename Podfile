@@ -7,6 +7,10 @@ target 'EzFeeds' do
 
   # Pods for EzFeeds
   pod 'Alamofire', '~> 5.2'
+  pod 'ObjectMapper'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'FBSDKLoginKit'
+  pod 'RealmSwift'
 
   target 'EzFeedsTests' do
     inherit! :search_paths

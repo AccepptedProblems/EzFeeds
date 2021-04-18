@@ -11,6 +11,7 @@ import UIKit
 enum EZFeedTabbarItemType {
     case home
     case bookmark
+    case search
     case category
     case profile
     
@@ -20,10 +21,12 @@ enum EZFeedTabbarItemType {
             return 0
         case .bookmark:
             return 1
-        case .category:
+        case .search:
             return 2
-        case .profile:
+        case .category:
             return 3
+        case .profile:
+            return 4
         }
     }
     
@@ -33,11 +36,15 @@ enum EZFeedTabbarItemType {
             let vc = EzListNewsViewController.newViewController()
             return vc
         case .bookmark:
-            let vc = ViewController()
+            let vc = ListBookmarkViewController.newController()
             vc.view.backgroundColor = .blue
             return vc
-        case .category:
+        case .search:
             let vc = ViewController()
+            vc.view.backgroundColor = .gray
+            return vc
+        case .category:
+            let vc = ListCategoryViewController.newController()
             vc.view.backgroundColor = .green
             return vc
         case .profile:
@@ -53,6 +60,8 @@ enum EZFeedTabbarItemType {
             return "icon_home"
         case .bookmark:
             return "icon_bookmark"
+        case .search:
+            return "icon_search"
         case .category:
             return "icon_grid"
         case .profile:

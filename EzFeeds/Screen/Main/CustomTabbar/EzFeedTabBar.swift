@@ -11,6 +11,7 @@ class EzFeedTabBar: BaseCustomView {
     
     @IBOutlet weak var homeViewItem: EzTabBarItem!
     @IBOutlet weak var bookmarkViewItem: EzTabBarItem!
+    @IBOutlet weak var searchView: EzTabBarItem!
     @IBOutlet weak var categoryViewItem: EzTabBarItem!
     @IBOutlet weak var profileViewItem: EzTabBarItem!
     
@@ -22,6 +23,7 @@ class EzFeedTabBar: BaseCustomView {
         //Setup data
         homeViewItem.setupData(itemType: .home)
         bookmarkViewItem.setupData(itemType: .bookmark)
+        searchView.setupData(itemType: .search)
         categoryViewItem.setupData(itemType: .category)
         profileViewItem.setupData(itemType: .profile)
         
@@ -40,6 +42,7 @@ class EzFeedTabBar: BaseCustomView {
     func resetSelection() {
         homeViewItem.setSelected(isSelected: false)
         bookmarkViewItem.setSelected(isSelected: false)
+        searchView.setSelected(isSelected: false)
         categoryViewItem.setSelected(isSelected: false)
         profileViewItem.setSelected(isSelected: false)
     }
@@ -53,6 +56,11 @@ class EzFeedTabBar: BaseCustomView {
         bookmarkViewItem.didSelectItem = { [weak self] (itemType) in
             self?.resetSelection()
             self?.bookmarkViewItem.setSelected(isSelected: true)
+            self?.selectItem(itemType: itemType)
+        }
+        searchView.didSelectItem = { [weak self] (itemType) in
+            self?.resetSelection()
+            self?.searchView.setSelected(isSelected: true)
             self?.selectItem(itemType: itemType)
         }
         categoryViewItem.didSelectItem = { [weak self] (itemType) in
