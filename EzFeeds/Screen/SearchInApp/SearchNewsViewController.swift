@@ -27,6 +27,7 @@ extension SearchNewsViewController: UITextFieldDelegate {
             return false
         }
         let listNewsVC = EzListNewsViewController.newViewController()
-        
+        return true
     }
+
 }
