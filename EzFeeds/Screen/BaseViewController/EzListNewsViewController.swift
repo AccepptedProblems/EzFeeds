@@ -10,21 +10,23 @@ import UIKit
 class EzListNewsViewController: UIViewController {
 
     @IBOutlet weak var headerTittleLabel: UILabel!
+    @IBOutlet weak var backView: UIView!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var backImageView: UIImageView!
     @IBOutlet weak var listNewsTableView: UITableView!
     
     var listNewsDataManager = ListNewsDataManager()
     
-    let type: NewsType = .topHeadline
+    var type: NewsType = .topHeadline
     var textSearch: String?
     var category: CategoryType?
     var sources: String?
     
     var titleHeader: String = ""
     
-    class func newViewController() -> EzListNewsViewController {
+    class func newViewController(type: NewsType) -> EzListNewsViewController {
         let vc = EzListNewsViewController(nibName: String(describing: self), bundle: nil)
+        vc.type = type
         return vc
     }
     
@@ -41,6 +43,15 @@ class EzListNewsViewController: UIViewController {
         backImageView.setTintColor(color: .ezColor)
         if let category = category?.title() {
             headerTittleLabel.text = category
+        }
+        
+        if let headerTitleStr = textSearch {
+            headerTittleLabel.text = "Search result for \"\(headerTitleStr)\""
+            headerTittleLabel.font = UIFont.boldSystemFont(ofSize: 20)
+        }
+        
+        if type == .topHeadline {
+            backView.isHidden = true
         }
     }
     
@@ -64,7 +75,7 @@ class EzListNewsViewController: UIViewController {
     }
     
     func getNewsData() {
-        listNewsDataManager.getListNew(type: type, category: category?.param(), country: "us")
+        listNewsDataManager.getListNew(type: type, text: textSearch, category: category?.param(), country: type == .topHeadline ? "us" : nil)
     }
     
     @IBAction func backButtonPressed(_ sender: Any) {

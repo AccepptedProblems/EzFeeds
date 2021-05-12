@@ -79,7 +79,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="P83-U4-14p" secondAttribute="trailing" id="S6J-ep-eYm"/>
                 <constraint firstItem="P83-U4-14p" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="prP-AC-hW1"/>
             </constraints>
-            <point key="canvasLocation" x="439" y="-461"/>
+            <point key="canvasLocation" x="-1" y="167"/>
         </view>
     </objects>
     <resources>

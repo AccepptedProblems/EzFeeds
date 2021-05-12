@@ -51,7 +51,7 @@ extension ListCategoryViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let listNewsVc = EzListNewsViewController.newViewController()
+        let listNewsVc = EzListNewsViewController.newViewController(type: .topHeadline)
         listNewsVc.category = categories[indexPath.row]
         navigationController?.pushViewController(listNewsVc, animated: true)
     }

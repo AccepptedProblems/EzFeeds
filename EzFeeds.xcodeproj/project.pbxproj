@@ -39,13 +39,17 @@
 		3D264493260E426700B4B1DC /* TabbarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264492260E426700B4B1DC /* TabbarData.swift */; };
 		3D29205C260ED0F300FAB5A4 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29205B260ED0F300FAB5A4 /* UIImageViewExtension.swift */; };
 		3D292061260ED2B000FAB5A4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D292060260ED2B000FAB5A4 /* UIColorExtension.swift */; };
+		3D3CA12E26405A5800D1B041 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CA12D26405A5800D1B041 /* ProfileModel.swift */; };
 		3D456DA5262A0A0E00626748 /* SearchNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D456DA3262A0A0E00626748 /* SearchNewsViewController.swift */; };
 		3D456DA6262A0A0E00626748 /* SearchNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D456DA4262A0A0E00626748 /* SearchNewsViewController.xib */; };
+		3D508BFF2636FDE7004AF58D /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D508BFD2636FDE7004AF58D /* ProfileTableViewCell.swift */; };
+		3D508C002636FDE7004AF58D /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D508BFE2636FDE7004AF58D /* ProfileTableViewCell.xib */; };
 		3D6E2A2A261EE39B00AF40BC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E2A28261EE39B00AF40BC /* WebViewController.swift */; };
 		3D6E2A2B261EE39B00AF40BC /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E2A29261EE39B00AF40BC /* WebViewController.xib */; };
 		3D70C44D2610DABC00CA9DD6 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70C44C2610DABC00CA9DD6 /* APIRequest.swift */; };
 		3D798B432624ABC50020422D /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D798B412624ABC50020422D /* CategoryTableViewCell.swift */; };
 		3D798B442624ABC50020422D /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D798B422624ABC50020422D /* CategoryTableViewCell.xib */; };
+		3D829B58264302B400D2E8A5 /* ProfileDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D829B57264302B400D2E8A5 /* ProfileDataManager.swift */; };
 		3D8B9DB626280CA700EBCBC0 /* BookmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B9DB526280CA700EBCBC0 /* BookmarkModel.swift */; };
 		3DAC8B2A26139221003218A7 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC8B2926139221003218A7 /* NewsDetail.swift */; };
 		3DAC8B3226139435003218A7 /* SourceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC8B3126139435003218A7 /* SourceDetail.swift */; };
@@ -57,6 +61,8 @@
 		3DD05044262754BB001E40D2 /* ListBookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD05042262754BB001E40D2 /* ListBookmarkViewController.swift */; };
 		3DD05045262754BB001E40D2 /* ListBookmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD05043262754BB001E40D2 /* ListBookmarkViewController.xib */; };
 		3DD1053E262187F800ACD842 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1053D262187F800ACD842 /* CategoryModel.swift */; };
+		3DD38E902630796A00411774 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD38E8E2630796A00411774 /* ProfileViewController.swift */; };
+		3DD38E912630796A00411774 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD38E8F2630796A00411774 /* ProfileViewController.xib */; };
 		3DDAE600262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDAE5FE262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift */; };
 		3DDAE601262AC6F700DF99C7 /* SearchSuggestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DDAE5FF262AC6F700DF99C7 /* SearchSuggestTableViewCell.xib */; };
 		3DF303C4261B550F0091744C /* MenuCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF303C3261B550F0091744C /* MenuCustomView.swift */; };
@@ -126,13 +132,17 @@
 		3D264492260E426700B4B1DC /* TabbarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarData.swift; sourceTree = "<group>"; };
 		3D29205B260ED0F300FAB5A4 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		3D292060260ED2B000FAB5A4 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3D3CA12D26405A5800D1B041 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		3D456DA3262A0A0E00626748 /* SearchNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNewsViewController.swift; sourceTree = "<group>"; };
 		3D456DA4262A0A0E00626748 /* SearchNewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchNewsViewController.xib; sourceTree = "<group>"; };
+		3D508BFD2636FDE7004AF58D /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		3D508BFE2636FDE7004AF58D /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		3D6E2A28261EE39B00AF40BC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		3D6E2A29261EE39B00AF40BC /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		3D70C44C2610DABC00CA9DD6 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		3D798B412624ABC50020422D /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		3D798B422624ABC50020422D /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		3D829B57264302B400D2E8A5 /* ProfileDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataManager.swift; sourceTree = "<group>"; };
 		3D8B9DB526280CA700EBCBC0 /* BookmarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkModel.swift; sourceTree = "<group>"; };
 		3DAC8B2926139221003218A7 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
 		3DAC8B3126139435003218A7 /* SourceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDetail.swift; sourceTree = "<group>"; };
@@ -144,6 +154,8 @@
 		3DD05042262754BB001E40D2 /* ListBookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBookmarkViewController.swift; sourceTree = "<group>"; };
 		3DD05043262754BB001E40D2 /* ListBookmarkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBookmarkViewController.xib; sourceTree = "<group>"; };
 		3DD1053D262187F800ACD842 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		3DD38E8E2630796A00411774 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3DD38E8F2630796A00411774 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		3DDAE5FE262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestTableViewCell.swift; sourceTree = "<group>"; };
 		3DDAE5FF262AC6F700DF99C7 /* SearchSuggestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchSuggestTableViewCell.xib; sourceTree = "<group>"; };
 		3DF303C3261B550F0091744C /* MenuCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomView.swift; sourceTree = "<group>"; };
@@ -296,6 +308,7 @@
 		3D26446E260E3DEF00B4B1DC /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				3DD38E8D2630794900411774 /* Profile */,
 				3D456D9F262A091C00626748 /* SearchInApp */,
 				3DD05041262751CB001E40D2 /* Bookmark */,
 				3DBE24EE261E270C00EB1353 /* Category */,
@@ -354,6 +367,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		3D3CA12C26405A3100D1B041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D3CA12D26405A5800D1B041 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3D456D9F262A091C00626748 /* SearchInApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +398,15 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
+		3D508BFC2636FDCB004AF58D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3D508BFD2636FDE7004AF58D /* ProfileTableViewCell.swift */,
+				3D508BFE2636FDE7004AF58D /* ProfileTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		3D70C4482610DA7C00CA9DD6 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +416,14 @@
 				3D1717C4261313C40057A2EF /* ListNewsAPIRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		3D829B562643029100D2E8A5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D829B57264302B400D2E8A5 /* ProfileDataManager.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 		3D8B9DB426280C7D00EBCBC0 /* Model */ = {
@@ -453,6 +491,18 @@
 				3D798B422624ABC50020422D /* CategoryTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		3DD38E8D2630794900411774 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3D829B562643029100D2E8A5 /* View Model */,
+				3D3CA12C26405A3100D1B041 /* Model */,
+				3D508BFC2636FDCB004AF58D /* Cell */,
+				3DD38E8E2630796A00411774 /* ProfileViewController.swift */,
+				3DD38E8F2630796A00411774 /* ProfileViewController.xib */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		3DDAE5FA262A8AF100DF99C7 /* Cell */ = {
@@ -613,6 +663,7 @@
 				3D456DA6262A0A0E00626748 /* SearchNewsViewController.xib in Resources */,
 				3D0BBB4B260FA93C003E350A /* EzListNewsViewController.xib in Resources */,
 				3D798B442624ABC50020422D /* CategoryTableViewCell.xib in Resources */,
+				3D508C002636FDE7004AF58D /* ProfileTableViewCell.xib in Resources */,
 				3D264443260E3DBE00B4B1DC /* LaunchScreen.storyboard in Resources */,
 				3DF303C9261B551B0091744C /* MenuCustomView.xib in Resources */,
 				3D0BBB24260F9AB1003E350A /* ListNewsTableViewCell.xib in Resources */,
@@ -622,6 +673,7 @@
 				3DF303DA261B56290091744C /* MenuTableViewCell.xib in Resources */,
 				3D264486260E3DEF00B4B1DC /* LoginViewController.xib in Resources */,
 				3D264480260E3DEF00B4B1DC /* EzTabBarItem.xib in Resources */,
+				3DD38E912630796A00411774 /* ProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,6 +801,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3CA12E26405A5800D1B041 /* ProfileModel.swift in Sources */,
 				3DD1053E262187F800ACD842 /* CategoryModel.swift in Sources */,
 				3D264487260E3DEF00B4B1DC /* LoginViewController.swift in Sources */,
 				3D1717C5261313C40057A2EF /* ListNewsAPIRouter.swift in Sources */,
@@ -756,6 +809,7 @@
 				3DDAE600262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift in Sources */,
 				3D26443B260E3DBD00B4B1DC /* ViewController.swift in Sources */,
 				3D29205C260ED0F300FAB5A4 /* UIImageViewExtension.swift in Sources */,
+				3D508BFF2636FDE7004AF58D /* ProfileTableViewCell.swift in Sources */,
 				3D264437260E3DBD00B4B1DC /* AppDelegate.swift in Sources */,
 				3D0BBB2C260FA440003E350A /* UIViewControllerExtension.swift in Sources */,
 				3D26447F260E3DEF00B4B1DC /* BaseCustomView.swift in Sources */,
@@ -764,6 +818,7 @@
 				3DBE24F1261E272700EB1353 /* ListCategoryViewController.swift in Sources */,
 				3D292061260ED2B000FAB5A4 /* UIColorExtension.swift in Sources */,
 				3D26447E260E3DEF00B4B1DC /* UIVIewExtension.swift in Sources */,
+				3D829B58264302B400D2E8A5 /* ProfileDataManager.swift in Sources */,
 				3D6E2A2A261EE39B00AF40BC /* WebViewController.swift in Sources */,
 				3D264484260E3DEF00B4B1DC /* MainTabsViewController.swift in Sources */,
 				3D1717B8261307D10057A2EF /* EzRouter.swift in Sources */,
@@ -783,6 +838,7 @@
 				3DCAB0FB2615CDA8003B8B0D /* NewsResponse.swift in Sources */,
 				3DBE24E9261E241900EB1353 /* NewsDetailViewController.swift in Sources */,
 				3D70C44D2610DABC00CA9DD6 /* APIRequest.swift in Sources */,
+				3DD38E902630796A00411774 /* ProfileViewController.swift in Sources */,
 				3D1717CC261315740057A2EF /* ListNewsDataManager.swift in Sources */,
 				3D264483260E3DEF00B4B1DC /* EzFeedTabBar.swift in Sources */,
 			);

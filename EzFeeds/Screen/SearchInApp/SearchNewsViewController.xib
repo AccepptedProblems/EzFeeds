@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchNewsViewController" customModule="EzFeeds" customModuleProvider="target">
             <connections>
+                <outlet property="searchContentView" destination="HSh-T7-Yoz" id="LNr-Ka-3JC"/>
                 <outlet property="searchImage" destination="pry-Gv-fSz" id="830-Ih-zmc"/>
                 <outlet property="searchTextField" destination="Cer-ep-jjV" id="hc5-Rc-lTo"/>
                 <outlet property="suggestTableView" destination="p8R-qh-vHo" id="Q39-Ot-Ntj"/>
@@ -84,7 +85,7 @@
                                 <constraint firstAttribute="height" constant="48" id="vtO-fQ-IIZ"/>
                             </constraints>
                         </view>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="p8R-qh-vHo">
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="p8R-qh-vHo">
                             <rect key="frame" x="0.0" y="100" width="414" height="718"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </tableView>

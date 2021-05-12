@@ -12,6 +12,7 @@
             <connections>
                 <outlet property="backButton" destination="lbf-rU-6SK" id="rbi-cw-K5b"/>
                 <outlet property="backImageView" destination="bEh-Ur-jeU" id="iBl-4m-4Lg"/>
+                <outlet property="backView" destination="O3W-4d-669" id="PNM-cp-oBA"/>
                 <outlet property="headerTittleLabel" destination="OOz-nR-4bl" id="nKe-wB-cSI"/>
                 <outlet property="listNewsTableView" destination="SMA-Hz-9ac" id="Erk-ZG-gns"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

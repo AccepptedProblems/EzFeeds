@@ -33,23 +33,19 @@ enum EZFeedTabbarItemType {
     func viewController() -> UIViewController {
         switch self {
         case .home:
-            let vc = EzListNewsViewController.newViewController()
+            let vc = EzListNewsViewController.newViewController(type: .topHeadline)
             return vc
         case .bookmark:
             let vc = ListBookmarkViewController.newController()
-            vc.view.backgroundColor = .blue
             return vc
         case .search:
-            let vc = ViewController()
-            vc.view.backgroundColor = .gray
+            let vc = SearchNewsViewController()
             return vc
         case .category:
             let vc = ListCategoryViewController.newController()
-            vc.view.backgroundColor = .green
             return vc
         case .profile:
-            let vc = ViewController()
-            vc.view.backgroundColor = .orange
+            let vc = ProfileViewController()
             return vc
         }
     }

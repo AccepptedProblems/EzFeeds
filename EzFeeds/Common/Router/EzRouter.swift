@@ -58,6 +58,7 @@ enum NewsType: Alamofire.URLRequestConvertible {
             paramStr += param.key + "=" + (param.value as! String) + "&"
         }
         paramStr.remove(at: paramStr.index(before: paramStr.endIndex))
+        paramStr = paramStr.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? ""
         let request = try URLRequest(url: self.getPath() + "?" + paramStr , method: Alamofire.HTTPMethod(rawValue: self.HTTPMethod()), headers: [EzRouter.header])
         return request
     }
