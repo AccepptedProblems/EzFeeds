@@ -16,6 +16,7 @@ class ListNewsDataManager {
     
     func getListNew(type: NewsType, text: String? = nil, source: String? = nil, category: String? = nil, country: String? = nil) {
         let urlRequest = try! type.asURLRequest(text: text, sources: source, category: category, country: country)
+    
         AF.request(urlRequest).validate().responseJSON { [self] (response) in
             if response.error != nil {
                 return

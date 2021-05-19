@@ -6,11 +6,10 @@
 //
 
 import Foundation
-import RealmSwift
 
-class BookmarkModel: Object {
-    @objc dynamic var title: String = ""
-    @objc dynamic var desc: String = ""
-    @objc dynamic var urlImg: String = ""
-    @objc dynamic var urlArticle: String = ""
+class BookmarkModel {
+    var title: String = ""
+    var desc: String = ""
+    var urlImg: String = ""
+    var urlArticle: String = ""
 }

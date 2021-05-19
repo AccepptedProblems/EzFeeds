@@ -16,7 +16,6 @@
 		3D1717AB2612F7570057A2EF /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1717AA2612F7570057A2EF /* UITableViewExtension.swift */; };
 		3D1717B8261307D10057A2EF /* EzRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1717B7261307D10057A2EF /* EzRouter.swift */; };
 		3D1717BD26130F920057A2EF /* BaseAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1717BC26130F920057A2EF /* BaseAPIRouter.swift */; };
-		3D1717C5261313C40057A2EF /* ListNewsAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1717C4261313C40057A2EF /* ListNewsAPIRouter.swift */; };
 		3D1717CC261315740057A2EF /* ListNewsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1717CB261315740057A2EF /* ListNewsDataManager.swift */; };
 		3D264437260E3DBD00B4B1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264436260E3DBD00B4B1DC /* AppDelegate.swift */; };
 		3D264439260E3DBD00B4B1DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264438260E3DBD00B4B1DC /* SceneDelegate.swift */; };
@@ -49,7 +48,10 @@
 		3D70C44D2610DABC00CA9DD6 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70C44C2610DABC00CA9DD6 /* APIRequest.swift */; };
 		3D798B432624ABC50020422D /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D798B412624ABC50020422D /* CategoryTableViewCell.swift */; };
 		3D798B442624ABC50020422D /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D798B422624ABC50020422D /* CategoryTableViewCell.xib */; };
+		3D7AD6F926556645004FA4AB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AD6F726556645004FA4AB /* RegisterViewController.swift */; };
+		3D7AD6FA26556645004FA4AB /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7AD6F826556645004FA4AB /* RegisterViewController.xib */; };
 		3D829B58264302B400D2E8A5 /* ProfileDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D829B57264302B400D2E8A5 /* ProfileDataManager.swift */; };
+		3D87C8132652BA230035CC4B /* EzUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D87C8122652BA230035CC4B /* EzUser.swift */; };
 		3D8B9DB626280CA700EBCBC0 /* BookmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B9DB526280CA700EBCBC0 /* BookmarkModel.swift */; };
 		3DAC8B2A26139221003218A7 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC8B2926139221003218A7 /* NewsDetail.swift */; };
 		3DAC8B3226139435003218A7 /* SourceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC8B3126139435003218A7 /* SourceDetail.swift */; };
@@ -63,6 +65,9 @@
 		3DD1053E262187F800ACD842 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1053D262187F800ACD842 /* CategoryModel.swift */; };
 		3DD38E902630796A00411774 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD38E8E2630796A00411774 /* ProfileViewController.swift */; };
 		3DD38E912630796A00411774 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD38E8F2630796A00411774 /* ProfileViewController.xib */; };
+		3DDA7231264CE42900A98023 /* EzAppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA7230264CE42900A98023 /* EzAppRouter.swift */; };
+		3DDA723726501BD900A98023 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA723626501BD900A98023 /* DataHelper.swift */; };
+		3DDA723C26502D5200A98023 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA723B26502D5200A98023 /* BaseResponse.swift */; };
 		3DDAE600262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDAE5FE262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift */; };
 		3DDAE601262AC6F700DF99C7 /* SearchSuggestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DDAE5FF262AC6F700DF99C7 /* SearchSuggestTableViewCell.xib */; };
 		3DF303C4261B550F0091744C /* MenuCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF303C3261B550F0091744C /* MenuCustomView.swift */; };
@@ -103,7 +108,6 @@
 		3D1717AA2612F7570057A2EF /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		3D1717B7261307D10057A2EF /* EzRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzRouter.swift; sourceTree = "<group>"; };
 		3D1717BC26130F920057A2EF /* BaseAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIRouter.swift; sourceTree = "<group>"; };
-		3D1717C4261313C40057A2EF /* ListNewsAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNewsAPIRouter.swift; sourceTree = "<group>"; };
 		3D1717CB261315740057A2EF /* ListNewsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNewsDataManager.swift; sourceTree = "<group>"; };
 		3D264433260E3DBD00B4B1DC /* EzFeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzFeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D264436260E3DBD00B4B1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,7 +146,10 @@
 		3D70C44C2610DABC00CA9DD6 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		3D798B412624ABC50020422D /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		3D798B422624ABC50020422D /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		3D7AD6F726556645004FA4AB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3D7AD6F826556645004FA4AB /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		3D829B57264302B400D2E8A5 /* ProfileDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataManager.swift; sourceTree = "<group>"; };
+		3D87C8122652BA230035CC4B /* EzUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzUser.swift; sourceTree = "<group>"; };
 		3D8B9DB526280CA700EBCBC0 /* BookmarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkModel.swift; sourceTree = "<group>"; };
 		3DAC8B2926139221003218A7 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
 		3DAC8B3126139435003218A7 /* SourceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDetail.swift; sourceTree = "<group>"; };
@@ -156,6 +163,9 @@
 		3DD1053D262187F800ACD842 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		3DD38E8E2630796A00411774 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3DD38E8F2630796A00411774 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		3DDA7230264CE42900A98023 /* EzAppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzAppRouter.swift; sourceTree = "<group>"; };
+		3DDA723626501BD900A98023 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		3DDA723B26502D5200A98023 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		3DDAE5FE262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestTableViewCell.swift; sourceTree = "<group>"; };
 		3DDAE5FF262AC6F700DF99C7 /* SearchSuggestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchSuggestTableViewCell.xib; sourceTree = "<group>"; };
 		3DF303C3261B550F0091744C /* MenuCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomView.swift; sourceTree = "<group>"; };
@@ -277,6 +287,8 @@
 		3D264469260E3DEF00B4B1DC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3D87C8112652BA0F0035CC4B /* EzUser */,
+				3DDA723526501BC900A98023 /* Helper */,
 				3D70C4482610DA7C00CA9DD6 /* Router */,
 				3D26446A260E3DEF00B4B1DC /* Extension */,
 				3D26446C260E3DEF00B4B1DC /* CustomView */,
@@ -353,8 +365,11 @@
 		3D264478260E3DEF00B4B1DC /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3D87C8102652BA050035CC4B /* Model */,
 				3D264479260E3DEF00B4B1DC /* LoginViewController.xib */,
 				3D26447A260E3DEF00B4B1DC /* LoginViewController.swift */,
+				3D7AD6F726556645004FA4AB /* RegisterViewController.swift */,
+				3D7AD6F826556645004FA4AB /* RegisterViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -413,7 +428,8 @@
 				3D70C44C2610DABC00CA9DD6 /* APIRequest.swift */,
 				3D1717B7261307D10057A2EF /* EzRouter.swift */,
 				3D1717BC26130F920057A2EF /* BaseAPIRouter.swift */,
-				3D1717C4261313C40057A2EF /* ListNewsAPIRouter.swift */,
+				3DDA7230264CE42900A98023 /* EzAppRouter.swift */,
+				3DDA723B26502D5200A98023 /* BaseResponse.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -424,6 +440,21 @@
 				3D829B57264302B400D2E8A5 /* ProfileDataManager.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3D87C8102652BA050035CC4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D87C8112652BA0F0035CC4B /* EzUser */ = {
+			isa = PBXGroup;
+			children = (
+				3D87C8122652BA230035CC4B /* EzUser.swift */,
+			);
+			path = EzUser;
 			sourceTree = "<group>";
 		};
 		3D8B9DB426280C7D00EBCBC0 /* Model */ = {
@@ -503,6 +534,14 @@
 				3DD38E8F2630796A00411774 /* ProfileViewController.xib */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		3DDA723526501BC900A98023 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA723626501BD900A98023 /* DataHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		3DDAE5FA262A8AF100DF99C7 /* Cell */ = {
@@ -656,6 +695,7 @@
 			files = (
 				3DD05045262754BB001E40D2 /* ListBookmarkViewController.xib in Resources */,
 				3DBE24EA261E241900EB1353 /* NewsDetailViewController.xib in Resources */,
+				3D7AD6FA26556645004FA4AB /* RegisterViewController.xib in Resources */,
 				3D264482260E3DEF00B4B1DC /* EzFeedTabBar.xib in Resources */,
 				3DBE24F2261E272700EB1353 /* ListCategoryViewController.xib in Resources */,
 				3D6E2A2B261EE39B00AF40BC /* WebViewController.xib in Resources */,
@@ -804,11 +844,13 @@
 				3D3CA12E26405A5800D1B041 /* ProfileModel.swift in Sources */,
 				3DD1053E262187F800ACD842 /* CategoryModel.swift in Sources */,
 				3D264487260E3DEF00B4B1DC /* LoginViewController.swift in Sources */,
-				3D1717C5261313C40057A2EF /* ListNewsAPIRouter.swift in Sources */,
+				3DDA723726501BD900A98023 /* DataHelper.swift in Sources */,
 				3D0BBB55260FB30D003E350A /* NSObjectExtension.swift in Sources */,
 				3DDAE600262AC6F700DF99C7 /* SearchSuggestTableViewCell.swift in Sources */,
 				3D26443B260E3DBD00B4B1DC /* ViewController.swift in Sources */,
 				3D29205C260ED0F300FAB5A4 /* UIImageViewExtension.swift in Sources */,
+				3DDA723C26502D5200A98023 /* BaseResponse.swift in Sources */,
+				3DDA7231264CE42900A98023 /* EzAppRouter.swift in Sources */,
 				3D508BFF2636FDE7004AF58D /* ProfileTableViewCell.swift in Sources */,
 				3D264437260E3DBD00B4B1DC /* AppDelegate.swift in Sources */,
 				3D0BBB2C260FA440003E350A /* UIViewControllerExtension.swift in Sources */,
@@ -822,6 +864,7 @@
 				3D6E2A2A261EE39B00AF40BC /* WebViewController.swift in Sources */,
 				3D264484260E3DEF00B4B1DC /* MainTabsViewController.swift in Sources */,
 				3D1717B8261307D10057A2EF /* EzRouter.swift in Sources */,
+				3D7AD6F926556645004FA4AB /* RegisterViewController.swift in Sources */,
 				3DF303D9261B56290091744C /* MenuTableViewCell.swift in Sources */,
 				3D456DA5262A0A0E00626748 /* SearchNewsViewController.swift in Sources */,
 				3D0BBB40260FA8DE003E350A /* EzListNewsViewController.swift in Sources */,
@@ -834,6 +877,7 @@
 				3D1717BD26130F920057A2EF /* BaseAPIRouter.swift in Sources */,
 				3DF303C4261B550F0091744C /* MenuCustomView.swift in Sources */,
 				3DD05044262754BB001E40D2 /* ListBookmarkViewController.swift in Sources */,
+				3D87C8132652BA230035CC4B /* EzUser.swift in Sources */,
 				3D1717AB2612F7570057A2EF /* UITableViewExtension.swift in Sources */,
 				3DCAB0FB2615CDA8003B8B0D /* NewsResponse.swift in Sources */,
 				3DBE24E9261E241900EB1353 /* NewsDetailViewController.swift in Sources */,

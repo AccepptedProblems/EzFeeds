@@ -65,6 +65,7 @@ enum NewsType: Alamofire.URLRequestConvertible {
 }
 
 struct EzRouter {
+    static let CSDLUrl = "https://apinewappezfeed.herokuapp.com/"
     static let baseRouter = "https://newsapi.org/v2/"
     static let header: HTTPHeader = HTTPHeader(name: "x-api-key", value: "7d08d511479244d1b26d811e91eb456c")
 }
