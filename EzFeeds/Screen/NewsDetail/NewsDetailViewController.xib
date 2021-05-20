@@ -54,6 +54,9 @@
                                                 <constraint firstAttribute="width" secondItem="OBx-nx-wh2" secondAttribute="height" multiplier="1:1" id="Noi-Yb-3Q0"/>
                                             </constraints>
                                             <state key="normal" image="icon_bookmark"/>
+                                            <connections>
+                                                <action selector="saveBookmark:" destination="-1" eventType="touchUpInside" id="6sX-5N-K3D"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" red="0.96078431372549022" green="0.98431372549019602" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>

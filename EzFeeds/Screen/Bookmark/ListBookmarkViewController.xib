@@ -44,7 +44,7 @@
                                 <constraint firstItem="DLZ-Df-aJB" firstAttribute="centerY" secondItem="rZX-gH-11I" secondAttribute="centerY" id="byo-bu-9rG"/>
                             </constraints>
                         </view>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4AZ-TD-HIR">
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4AZ-TD-HIR">
                             <rect key="frame" x="0.0" y="52" width="414" height="766"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </tableView>

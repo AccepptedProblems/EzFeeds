@@ -56,5 +56,18 @@ class NewsDetailViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func saveBookmark(_ sender: Any) {
+        let param = ["thumbnail_new": news?.urlToArticle ?? "",
+                     "title": news?.title ?? "",
+                     "thumbnail_image": news?.urlToImage ?? "",
+                     "description": news?.desc ?? ""]
+        APIRequest.request(apiRouter: EZAppApỉouter.bookmark(param: param), object: BookmarkModel.self) { [weak self] (_) in
+            self?.showAlert(message: "Lưu thành công!!!")
+        } failure: { (error) in
+            print("error")
+        }
 
+        
+    }
+    
 }
