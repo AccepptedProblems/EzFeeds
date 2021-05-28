@@ -48,6 +48,21 @@ enum ProfileId: Int, CaseIterable {
         }
     }
     
+    func info() -> String {
+        switch self {
+        case .city:
+            return UserLogin.current.city
+        case .email:
+            return UserLogin.current.email
+        case .name:
+            return UserLogin.current.username
+        case .country:
+            return UserLogin.current.country
+        default:
+            return ""
+        }
+    }
+    
     func isConfig() -> Bool {
         switch self {
         case .log_out, .setting, .about_us:
@@ -71,6 +86,7 @@ class ProfileModel {
         self.type = type
         self.title = type.title()
         self.imageStr = type.imgStr()
+        self.info = type.info()
         self.isConfig = type.isConfig()
     }
     

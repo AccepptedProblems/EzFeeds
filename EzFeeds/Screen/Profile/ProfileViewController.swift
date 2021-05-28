@@ -20,7 +20,13 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        configUI()
         configTableView()
+    }
+    
+    func configUI() {
+        greetingLabel.text = "Hello, \(UserLogin.current.username)"
+        addressLabel.text = "User"
     }
     
     func configTableView() {
@@ -82,7 +88,7 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
                 let cancel = UIAlertAction(title: "Không", style: .destructive, handler: nil)
                 alert.addAction(action)
                 alert.addAction(cancel)
-                self.present(alert, animated: false, completion: nil)
+                self.present(alert, animated: true, completion: nil)
                 
             default:
                 break
