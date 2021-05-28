@@ -16,6 +16,7 @@ class EzListNewsViewController: UIViewController {
     @IBOutlet weak var listNewsTableView: UITableView!
     
     var listNewsDataManager = ListNewsDataManager()
+    var delegate: EmbeddedViewControllerDelegate?
     
     var type: NewsType = .topHeadline
     var textSearch: String?

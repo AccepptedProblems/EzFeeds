@@ -26,6 +26,9 @@ class MainTabsViewController: UIViewController {
     
     func gotoVc(itemType: EZFeedTabbarItemType) {
         let vc = itemType.viewController()
+        if vc is ProfileViewController {
+            (vc as! ProfileViewController).delegate = self
+        }
         let nav = UINavigationController(rootViewController: vc)
         nav.setNavigationBarHidden(true, animated: false)
         nav.view.frame = self.containerView.bounds
@@ -40,6 +43,11 @@ class MainTabsViewController: UIViewController {
         }
     }
     
-    
 
+}
+
+extension MainTabsViewController: EmbeddedViewControllerDelegate {
+    func returnToMainVC() {
+        navigationController?.popToRootViewController(animated: true)
+    }
 }

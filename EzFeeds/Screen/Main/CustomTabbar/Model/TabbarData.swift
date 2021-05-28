@@ -8,6 +8,10 @@
 import Foundation
 import UIKit
 
+protocol EmbeddedViewControllerDelegate {
+    func returnToMainVC()
+}
+
 enum EZFeedTabbarItemType {
     case home
     case bookmark

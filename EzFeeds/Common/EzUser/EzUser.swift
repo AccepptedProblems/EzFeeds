@@ -93,5 +93,14 @@ struct UserLogin {
         current.city = user.city ?? ""
     }
     
+    mutating func resetDataForLogout() {
+        id = 0
+        username = ""
+        password = ""
+        email = ""
+        country = ""
+        city = ""
+    }
+    
     
 }

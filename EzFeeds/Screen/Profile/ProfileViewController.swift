@@ -14,6 +14,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var profileTableView: UITableView!
     
     let profileDataManager = ProfileDataManager()
+    var delegate: EmbeddedViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,6 +67,27 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
             break
         }
         return cell 
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.section == 2 {
+            let data = profileDataManager.listConfig[indexPath.row]
+            switch data.type {
+            case .log_out:
+                let alert = UIAlertController(title: "Bạn có chắc muốn đăng xuất?", message: nil, preferredStyle: .alert)
+                let action = UIAlertAction(title: "Có", style: .default) { [weak self] (action) in
+                    UserLogin.current.resetDataForLogout()
+                    self?.delegate?.returnToMainVC()
+                }
+                let cancel = UIAlertAction(title: "Không", style: .destructive, handler: nil)
+                alert.addAction(action)
+                alert.addAction(cancel)
+                self.present(alert, animated: false, completion: nil)
+                
+            default:
+                break
+            }
+        }
     }
     
     
